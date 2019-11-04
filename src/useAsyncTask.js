@@ -13,7 +13,7 @@ export const useAsyncTask = (asyncFunc, params) => {
             let result = await asyncFunc();
             setData(result);
             setLoading(false);
-
+            setError(null);
         } catch (e) {
             setError(e);
             setLoading(false);
