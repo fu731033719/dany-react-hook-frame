@@ -24,6 +24,7 @@
     "react": "16.x"
   },
   "devDependencies": {
+    "antd": "^3.24.3",
     "nwb": "0.23.x",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
